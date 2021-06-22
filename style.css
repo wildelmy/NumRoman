@@ -1,0 +1,25 @@
+body{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+
+.box {
+  color: aliceblue;
+  text-shadow: 2px 1px 2px black;
+  box-shadow: 3px 3px 5px rgb(124, 124, 124);
+  background: #E38D0D;
+  background: -webkit-linear-gradient(top left, #E38D0D, #780188);
+  background: -moz-linear-gradient(top left, #E38D0D, #780188);
+  background: linear-gradient(to bottom right, #E38D0D, #780188);
+  padding: 40px;
+  width: 400px;
+  border-radius: 23% 7% 23% 13% / 25% 7% 26% 15% ;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
